@@ -1,0 +1,114 @@
+/*heading*/
+.Welcome .heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 50px;
+  font-weight: 500;
+  color: rgb(32, 52, 64);
+}
+.Welcome .heading .navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-right: 10px;
+}
+.Welcome .heading .navbar .anc {
+  text-decoration: none;
+  text-align: center;
+  height: fit-content;
+  width: 80px;
+  border-radius: 14px;
+  background-color: rgb(233, 233, 233);
+  padding: 10px;
+  font-size: 15px;
+  color: rgb(32, 52, 64);
+  font-family: Helvetica;
+  font-weight: lighter;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.236);
+}
+.Welcome .heading .navbar .anc:hover {
+  background-color: rgb(218, 216, 216);
+}
+
+/*hero*/
+.Welcome .hero {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  align-items: center;
+  justify-content: flex-start;
+  margin: 14px;
+  margin-top: 28px;
+  color: rgb(32, 52, 64);
+}
+.Welcome .hero .l1 {
+  margin: 10px;
+  font-size: 60px;
+}
+.Welcome .hero .l2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+/*images*/
+.Welcome .images {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 35px;
+  font-family: "Roboto";
+  color: white;
+}
+.Welcome .images p {
+  margin: 30px;
+}
+.Welcome .images .img1 {
+  width: 25vw;
+  height: 45vh;
+  background-image: linear-gradient(to bottom right, rgba(5, 5, 5, 0.819), rgba(255, 255, 255, 0)), url('/assets/book.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(227, 232, 233);
+  border-radius: 40px;
+  box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.13);
+  transition: all 0.3s ease;
+}
+.Welcome .images .img3 {
+  width: 25vw;
+  height: 45vh;
+  background-image: linear-gradient(to bottom right, rgba(5, 5, 5, 0.819), rgba(255, 255, 255, 0)), url('/assets/library3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: rgb(227, 232, 233);
+  border-radius: 40px;
+  box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.13);
+  transition: all 0.3s ease;
+}
+.Welcome .images .img2 {
+  width: 35vw;
+  height: 55vh;
+  background-image: linear-gradient(to bottom right, rgba(5, 5, 5, 0.819), rgba(255, 255, 255, 0)), url('/assets/study.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(227, 232, 233);
+  border-radius: 40px;
+  box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.13);
+  transition: all 0.3s ease;
+}
+.Welcome .images .img1:hover,
+.Welcome .images .img2:hover,
+.Welcome .images .img3:hover {
+  transform: scale(1.03);
+}
+
+/*footer*/
+.Welcome footer {
+  text-align: center;
+}
